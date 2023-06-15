@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 let ejs = require('ejs');
+require("dotenv").config()
 
 mongoose.connect('mongodb://127.0.0.1:27017/yadegariDB', {useNewUrlParser: true, useUnifiedTopology: true});
 
@@ -19,8 +20,8 @@ const userSchema = new mongoose.Schema({
 
 const Memo = new mongoose.model('Memo', memoSchema);
 const User = new mongoose.model('User', userSchema);
-
 const app = express();
+const port = process.env.PORT
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
@@ -143,7 +144,7 @@ app.post('/new-memo', (req, res) => {
     });
 });
 
-const port = 3001;
+
 app.listen(port, () => {
     console.log("Server is listening on http://localhost:" + port);
 });
