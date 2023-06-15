@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="512" height="512" rx="50" fill="#FF9EF2"/>
+<rect x="92" y="50" width="320" height="423" rx="46" fill="#FAFAFA" stroke="black" stroke-width="8"/>
+<circle cx="383.5" cy="111.5" r="17.5" fill="black"/>
+<circle cx="383.5" cy="171.5" r="17.5" fill="black"/>
+<circle cx="383.5" cy="231.5" r="17.5" fill="black"/>
+<circle cx="383.5" cy="291.5" r="17.5" fill="black"/>
+<circle cx="383.5" cy="351.5" r="17.5" fill="black"/>
+<circle cx="383.5" cy="411.5" r="17.5" fill="black"/>
+<path d="M383 111.999C383 111.999 442 85.4995 442.5 111.999C443 138.499 415 128.999 415 128.999" stroke="black" stroke-width="7"/>
+<path d="M383 170.778C383 170.778 442 144.278 442.5 170.778C443 197.278 415 187.778 415 187.778" stroke="black" stroke-width="7"/>
+<path d="M383 228.778C383 228.778 442 202.278 442.5 228.778C443 255.278 415 245.778 415 245.778" stroke="black" stroke-width="7"/>
+<path d="M383 288.778C383 288.778 442 262.278 442.5 288.778C443 315.278 415 305.778 415 305.778" stroke="black" stroke-width="7"/>
+<path d="M383 348.778C383 348.778 442 322.278 442.5 348.778C443 375.278 415 365.778 415 365.778" stroke="black" stroke-width="7"/>
+<path d="M383 408.778C383 408.778 442 382.278 442.5 408.778C443 435.278 415 425.778 415 425.778" stroke="black" stroke-width="7"/>
+</svg>
