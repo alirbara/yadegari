@@ -24,7 +24,8 @@ a {
 }
 
 :root {
-    --main-color: hsl(308, 100%, 81%);
+    /* --main-color: hsl(308, 100%, 81%); */
+    --main-color: hsl(187, 54%, 70%);
     --secondary-color: hsl(0, 0%, 100%);
     --text-color: hsl(0, 0%, 0%);
     --input-color: hsl(192, 15%, 94%);
