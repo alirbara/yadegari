@@ -1,6 +1,10 @@
 # Yadegari
 Yadegari is a website for sharing memos with your friends.
 
+# Screenshot
+
+![Screenshot on iPhone SE](./screenshot.png)
+
 # Deploy
 
 In order to deploy this project for your personal use, you need a linux server with MongoDB and Node.js installed and running.
