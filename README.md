@@ -42,8 +42,8 @@ Install pm2 and run the project as a service:
 ```bash
 
 npm i -g pm2
-sudo pm2 startup
 pm2 start app.js --name yadegari
+pm2 save
 
 ```
 
