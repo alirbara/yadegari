@@ -1,6 +1,10 @@
 # Yadegari
 Yadegari is a website for sharing memos with your friends.
 
+# Use
+
+You can use a live deployment [here](https://yadegari.alirezabaratian.com/)
+
 # Screenshot
 
 ![Screenshot on iPhone SE](./screenshot.png)
@@ -44,13 +48,5 @@ Install pm2 and run the project as a service:
 npm i -g pm2
 pm2 start app.js --name yadegari
 pm2 save
-
-```
-
-Now, you can see the process status:
-
-```bash
-
-pm2 list
 
 ```
